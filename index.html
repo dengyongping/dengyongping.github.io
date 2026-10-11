@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dengyongping · 个人主页</title>
+  <meta name="description" content="dengyongping 的个人主页：关于我、技能、项目与联系方式。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%232563eb'/><text x='50' y='70' font-size='58' text-anchor='middle' fill='white' font-family='sans-serif'>D</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="nav-logo" href="#home">dengyongping</a>
+      <div class="nav-links">
+        <a href="#home">首页</a>
+        <a href="#about">关于</a>
+        <a href="#skills">技能</a>
+        <a href="#projects">项目</a>
+        <a href="#contact">联系</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <!-- 首页 / Hero -->
+    <section id="home" class="hero">
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/48564536?v=4" alt="我的头像">
+      <!-- ↓ 姓名与一句话介绍，改成你自己的 -->
+      <h1>你好，我是 <span class="accent">邓永平</span></h1>
+      <p class="hero-sub">一名热爱技术的开发者，喜欢把事情做简单、做扎实。</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://github.com/dengyongping" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-ghost" href="#contact">联系我</a>
+      </div>
+      <a class="scroll-hint" href="#about" aria-label="向下滚动">↓</a>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="section reveal">
+      <h2>关于我</h2>
+      <!-- ↓ 自我介绍占位文案，改成你自己的经历 -->
+      <p>我是一名软件开发者，平时喜欢折腾各种技术，也享受把想法变成能用的东西的过程。工作之外，我会阅读技术文章、写写代码，偶尔也研究一下效率工具。</p>
+      <p>我相信简单可靠的设计最有力量：少一点花哨，多一点扎实。这个主页就是用纯 HTML/CSS 一行行搭起来的。</p>
+    </section>
+
+    <!-- 技能 -->
+    <section id="skills" class="section reveal">
+      <h2>技能</h2>
+      <!-- ↓ 技能标签占位，按实际情况增删 -->
+      <div class="skill-group">
+        <h3>语言</h3>
+        <ul class="pills">
+          <li>Python</li>
+          <li>JavaScript</li>
+          <li>Java</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>框架 / 工具</h3>
+        <ul class="pills">
+          <li>HTML / CSS</li>
+          <li>Git</li>
+          <li>GitHub Actions</li>
+          <li>Linux</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>领域</h3>
+        <ul class="pills">
+          <li>Web 开发</li>
+          <li>自动化脚本</li>
+          <li>数据处理</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 项目 -->
+    <section id="projects" class="section reveal">
+      <h2>项目</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>个人主页</h3>
+          <p>这个网站本身 —— 纯静态 HTML/CSS/JS，托管在 GitHub Pages 上。</p>
+          <a class="card-link" href="https://github.com/dengyongping/dengyongping.github.io" target="_blank" rel="noopener">仓库 →</a>
+        </article>
+        <!-- ↓ 项目占位卡片，替换成你的真实项目 -->
+        <article class="card">
+          <h3>示例项目 A</h3>
+          <p>这里写项目的用途和你解决了什么问题，一两句话即可。</p>
+          <a class="card-link" href="https://github.com/dengyongping" target="_blank" rel="noopener">查看 →</a>
+        </article>
+        <article class="card">
+          <h3>示例项目 B</h3>
+          <p>技术栈、亮点、或者你从中学到了什么。</p>
+          <a class="card-link" href="https://github.com/dengyongping" target="_blank" rel="noopener">查看 →</a>
+        </article>
+      </div>
+      <p class="more"><a href="https://github.com/dengyongping?tab=repositories" target="_blank" rel="noopener">在 GitHub 查看全部 →</a></p>
+    </section>
+
+    <!-- 联系 -->
+    <section id="contact" class="section reveal">
+      <h2>联系</h2>
+      <ul class="contact-list">
+        <li><a href="https://github.com/dengyongping" target="_blank" rel="noopener">GitHub：@dengyongping</a></li>
+        <!-- ↓ 邮箱占位，换成你自己的 -->
+        <li><a href="mailto:your.email@example.com">邮箱：your.email@example.com</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year">2026</span> dengyongping · Built with plain HTML</div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
